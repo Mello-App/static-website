@@ -1,7 +1,26 @@
 @charset 'utf-8';
 // Setting "Inter" as font and defaulting colour
 @import url('https://rsms.me/inter/inter.css');
-html {font-family: 'Inter', sans-serif; color: #000; }
+html { 
+    font-family: 'Inter', sans-serif;
+    color: #000;
+}
+
+/* Button */
+.button {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Font Colours */
+.comingsoon { color: rgba(0,0,0,.5); }
+.comingsoon-g {
+    color: rgba(0,0,0,.5);
+    opacity: 0.5;
+}
+.g { color: rgba(0,0,0,.6); }
+.navLink { color: #fff; }
 
 /* Font Sizes */
 .px-8 { font-size: 8px; }
@@ -14,11 +33,20 @@ html {font-family: 'Inter', sans-serif; color: #000; }
 .sb { font-weight: 600;}
 .b { font-weight: bold; }
 
-/* Font Colours */
-.comingsoon { color: rgba(0,0,0,.5); }
-.comingsoon-g {
-    color: rgba(0,0,0,.5);
-    opacity: 0.5;
+/* Footer */
+.footer-g { color: rgba(255,255,255,0.6); }
+.footer-t { color: #fff; }
+
+/* Header */
+.head-subtext {
+   font-size:20px;
 }
-.g { color: rgba(0,0,0,.6); }
-.navLink { color: #fff; }
+.head-text {
+    font-size: 48px;
+}
+
+/* Navigation */
+.navLink {
+    font-size: 12px;
+    font-weight: bold;
+}
