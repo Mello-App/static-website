@@ -1,9 +1,8 @@
 title: Mello
-description: "The world's"
+description: "Easing your mind whenever you need us."
 baseurl: "/"
 url: "https://mello-app.github.io"
 
-# Build settings
 theme: minima
 plugins:
   - jekyll-feed
