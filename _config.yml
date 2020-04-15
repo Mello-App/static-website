@@ -3,16 +3,6 @@ description: "Easing your mind whenever you need us."
 baseurl: "/"
 url: "https://mello-app.github.io"
 
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Team"
-    url: "/team"
-  - title: "GitHub"
-    url: "https://github.com/mello-app"
-  - title: "Download"
-    url: "#download"
-
 # Editing below isn't recommended :)
 
 exclude:
@@ -33,6 +23,6 @@ plugins:
 
 sass:
   style: compressed
-  sass_dir: _sass
+  sass_dir: _scss
 
 permalink: pretty
