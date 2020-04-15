@@ -1,10 +1,19 @@
 @charset 'utf-8';
+html, body { height: 100%; } /* Preparation for the folding header */
 
 // Header and Nav
 .button {
     background: #6EE7C8;
     border-radius: 20px;
     padding: 5px 20px 5px 20px;
+}
+
+.foldHeader {
+    background-image: url('../assets/img/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 .nav {
