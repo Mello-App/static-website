@@ -1,0 +1,13 @@
+<nav class="nav">
+    <a href="{{ '/' | relative_url }}"><img class="nav_logo" src="{{ '/assets/logo.svg' /}}" /></a>
+    <ul class="links">
+        {% for item in site.nav %}
+            {% if item.url contains '://' %}
+                {% assign url = item.url %}
+            {% else %}
+                {% assign url = item.url | relative_url %}
+            {% endif %}
+            <li><a class="navLink" href="{{url}}">{{item.title}}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
