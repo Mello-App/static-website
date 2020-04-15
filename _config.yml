@@ -13,18 +13,26 @@ nav:
   - title: "Download"
     url: "#download"
 
-theme: minima
-plugins:
-  - jekyll-feed
+# Editing below isn't recommended :)
 
 exclude:
   - .sass-cache/
   - .jekyll-cache/
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
   - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
+  - LICENSE
+  - README.md
+  - CNAME
+
+plugins:
+  - jekyll
+  - jekyll-sass-converter
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+permalink: pretty
