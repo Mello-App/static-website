@@ -1,5 +1,6 @@
+@charset 'utf-8';
+// Setting "Inter" as font and defaulting colour
 @import url('https://rsms.me/inter/inter.css');
-
 html {font-family: 'Inter', sans-serif; color: #000; }
 
 /* Font Sizes */
@@ -20,3 +21,4 @@ html {font-family: 'Inter', sans-serif; color: #000; }
     opacity: 0.5;
 }
 .g { color: rgba(0,0,0,.6); }
+.navLink { color: #fff; }

@@ -1,0 +1,37 @@
+@charset 'utf-8';
+
+// Header and Nav
+.button {
+    background: #6EE7C8;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+
+.link { padding: 10px 10px 10px 10px; }
+
+.navLink {
+    padding: .75px 10px .75px 10px;
+    text-decoration: none;
+}
+
+// Footer
+
+.footer {
+    width: 100%;
+    background: #111;
+    top: 30px; left: 100px;
+}
