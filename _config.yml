@@ -3,6 +3,16 @@ description: "Easing your mind whenever you need us."
 baseurl: "/"
 url: "https://mello-app.github.io"
 
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Team"
+    url: "/team"
+  - title: "GitHub"
+    url: "https://github.com/mello-app"
+  - title: "Download"
+    url: "#download"
+
 theme: minima
 plugins:
   - jekyll-feed
