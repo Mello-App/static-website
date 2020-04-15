@@ -9,7 +9,7 @@ install:
 
 script:
   - jekyll doctor
-  - jekyll build
+  - jekyll build -V --no-watch --strict_front_matter
 
 # Uncomment below when we register a domain
 # deploy:
