@@ -1,0 +1,21 @@
+title: Mello
+description: "The world's"
+baseurl: "/"
+url: "https://mello-app.github.io"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
