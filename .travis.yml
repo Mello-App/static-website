@@ -1,0 +1,20 @@
+language: ruby
+dist: trusty
+
+before_install:
+  - gem install bundler
+install:
+  - bundle install
+
+script:
+  - jekyll doctor
+  - jekyll build
+
+# Uncomment below when we register a domain
+# deploy:
+#   provider: pages
+#   cleanup: true
+#   github_token: $GITHUB_TOKEN
+#   keep_history: true
+#   on:
+#     branch: master
