@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll"
+gem "jekyll-sitemap"
 
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"
