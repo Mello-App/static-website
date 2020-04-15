@@ -1,7 +1,6 @@
 ---
 layout: home
 title: "Home"
-headerLink: "#download"
 get_started: get_started.html
 
 section:

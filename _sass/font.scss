@@ -1,19 +1,20 @@
 @import url('https://rsms.me/inter/inter.css');
 
-html { font-family: 'Inter', sans-serif; }
+html {font-family: 'Inter', sans-serif; color: #000; }
 
+/* Font Sizes */
 .px-8 { font-size: 8px; }
 .px-12 { font-size: 12px; }
 .px-14 { font-size: 14px; }
 .px-28 { font-size: 28px; }
 
+/* Font Weights */
 .m { font-weight: 500; }
 .sb { font-weight: 600;}
 .b { font-weight: bold; }
 
-.comingsoon {
-    color: rgba(0,0,0,.5);
-}
+/* Font Colours */
+.comingsoon { color: rgba(0,0,0,.5); }
 .comingsoon-g {
     color: rgba(0,0,0,.5);
     opacity: 0.5;
