@@ -30,7 +30,7 @@ body {
 }
 
 // hero > img + heroContent
-.heroBG {
+header.hero {
     background-image: url('../assets/img/background.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -38,15 +38,17 @@ body {
     height: 100vh;
 }
 
-div.hero {
+div.section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 80vh;
+    max-width: 70vw;
+    margin: auto;
 }
 
-div.heroContent {
+div.sectionContent {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -54,12 +56,18 @@ div.heroContent {
     padding-left: 1em;
 }
 
-img.heroImage {
+img.sectionImage {
     padding-right: 1em;
 }
 
-// Footer
+.left {
+    padding-right: 2em;
+}
+.right {
+    padding-left: 2em;
+}
 
+// Footer
 .footer {
     background: #111;
 }
