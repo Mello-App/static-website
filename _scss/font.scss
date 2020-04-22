@@ -1,16 +1,39 @@
 @charset 'utf-8';
 // Setting "Inter" as font and defaulting colour
 @import url('https://rsms.me/inter/inter.css');
+
 html { 
     font-family: 'Inter', sans-serif;
     color: #000;
 }
 
-/* Button */
-.button {
-    color: #000;
-    font-weight: bold;
-    text-decoration: none;
+h1 {
+    font-size: 4em;
+    margin: 0em;
+    line-height: 1em;
+}
+h3 {
+    font-size:1.5em;
+    line-height: 1em;
+}
+
+/* Header */
+h1.hero, h3.hero {
+    color: #fff; 
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+// Footer
+h3.footer {
+    color: #fff; 
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+p.footer {
+    color: #ffffff99;
+    font-weight: 500;
+    letter-spacing: -0.02em;
 }
 
 /* Font Colours */
@@ -23,31 +46,22 @@ html {
 .navLink { color: #fff; }
 
 /* Font Sizes */
-.px-8 { font-size: 8px; }
-.px-12 { font-size: 12px; }
-.px-14 { font-size: 14px; }
-.px-28 { font-size: 28px; }
-
-/* Font Weights */
-.m { font-weight: 500; }
-.sb { font-weight: 600;}
-.b { font-weight: bold; }
 
 /* Footer */
 .footer-g { color: rgba(255,255,255,0.6); }
 .footer-t { color: #fff; }
 
-/* Header */
-.head-subtext {
-   font-size:20px;
+/* Button */
+.downloadButton {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -0.02em;
 }
-.head-text {
-    font-size: 48px;
-}
-.head-subtext, .head-text { color: #fff; }
 
 /* Navigation */
 .navLink {
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: -0.02em;
 }

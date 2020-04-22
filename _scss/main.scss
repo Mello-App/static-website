@@ -1,51 +1,75 @@
 @charset 'utf-8';
-html, body { height: 100%; } /* Preparation for the folding header */
 
-// Header and Nav
-.button {
-    background: #6EE7C8;
-    border-radius: 20px;
-    padding: 5px 20px 5px 20px;
+html,
+body {
+    height: 100vh;
+    margin: 0%;
 }
 
-.foldHeader {
+// Header and Nav
+
+.links {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    padding: 2em;
+    margin: 0em;
+}
+
+.navLink {
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+.downloadButton {
+    background: #6EE7C8;
+    border-radius: 20px;
+    padding: 0.4em 1.8em 0.4em 1.8em;
+}
+
+// hero > img + heroContent
+.heroBG {
     background-image: url('../assets/img/background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
 }
 
-.nav {
+div.hero {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
 }
 
-.links {
+div.heroContent {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    list-style: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 1em;
+    padding-left: 1em;
 }
 
-.link { padding: 10px 10px 10px 10px; }
-
-.navLink {
-    padding: .75px 10px .75px 10px;
-    text-decoration: none;
+img.heroImage {
+    padding-right: 1em;
 }
 
 // Footer
 
 .footer {
-    width: 100%;
     background: #111;
-    top: 30px; left: 100px;
 }
 
 // Sections
 
-.d-sec { background: #eee; }
-.l-sec { background: #fff; }
+.d-sec {
+    background: #eee;
+}
+
+.l-sec {
+    background: #fff;
+}
