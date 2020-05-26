@@ -1,0 +1,23 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup
+      run: |
+        gem install bundler
+        bundle install
+    - name: Testing
+      run: |
+        jekyll doctor
+        jekyll build -V --no-watch --strict_front_matter
