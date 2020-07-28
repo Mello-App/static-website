@@ -1,20 +1,18 @@
+# SEO
 title: Mello
 description: "Easing your mind whenever you need us."
-baseurl: "/static-website"
-url: "https://mello-app.github.io/static-website"
+author: "The Mello Team"
+url: "https://getmello.org"
 
 # Editing below isn't recommended :)
 
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
+  - README.md
+  - LICENSE
+  - CNAME
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/
-  - LICENSE
-  - README.md
-  - CNAME
+  - .jekyll-cache
 
 plugins:
   - jekyll
