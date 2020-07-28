@@ -13,11 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Setup
+    - name: Build the site in the jekyll/builder container
       run: |
-        gem install bundler
-        bundle install
-    - name: Testing
-      run: |
-        jekyll doctor
-        jekyll build -V --no-watch --strict_front_matter
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
