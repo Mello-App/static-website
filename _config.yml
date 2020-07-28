@@ -1,7 +1,7 @@
 title: Mello
 description: "Easing your mind whenever you need us."
-baseurl: "/"
-url: "https://mello-app.github.io"
+baseurl: "/static-website"
+url: "https://mello-app.github.io/static-website"
 
 # Editing below isn't recommended :)
 
