@@ -2,82 +2,131 @@
 
 html,
 body {
-    height: 100vh;
-    margin: 0%;
+    margin: 0;
 }
 
-// Header and Nav
-
-.links {
+// Header
+header {
+    padding: 2em 10vw;
+    color: #fff;
+    height: 30vh;
     display: flex;
-    justify-content: right;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    list-style: none;
-    padding: 2em;
-    margin: 0em;
-}
-
-.navLink {
-    padding: 10px 10px 10px 10px;
-    text-decoration: none;
-}
-
-.downloadButton {
-    background: #6EE7C8;
-    border-radius: 20px;
-    padding: 0.4em 1.8em 0.4em 1.8em;
-}
-
-// hero > img + heroContent
-header.hero {
+    flex-direction: column;
+    justify-content: space-between;
     background-image: url('../assets/img/background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    &.jumbotron {
+        height: 90vh;
+    }
+
 }
 
-div.section {
+// Navigation
+div.nav {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 80vh;
-    max-width: 70vw;
-    margin: auto;
+    .navlinks {
+        display: flex;
+        align-items: center;
+        .navlink {
+            text-decoration: none;
+            color: #fff;
+            margin-left: 10pt;
+            &:hover {
+                color: #6EE6C7;
+            }
+        }
+    }
 }
 
-div.sectionContent {
+// Section block
+.section {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    min-height: 75vh;
+    &.st1 {
+        background: #ddd;
+    }
+}
+
+// Content block
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2em;
+    > div, > img {
+        margin: 1em 2em;
+        max-width: 600pt;
+    }
+    > img {
+        height: 40vh;
+    }
+    @media only screen and (max-width: 950px) {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        div {
+            h1, h2, h3, p {
+                text-align: center;
+            }
+        }
+    }
+}
+
+// Get started block
+.useApp {
+    > div {
+        display: flex;
+        align-items: center;
+        > img {
+            margin-right: 0.5em;
+            min-height: 100%;
+        }
+        > div {
+            margin: 0.25em 0;
+        }
+        > div > a {
+            line-height: 1em;
+        }
+    }
+}
+
+div.gsText {
+    @media only screen and (max-width: 950px) {
+        order: -1;
+    }
+}
+
+// Team block
+div.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: flex-start;
-    padding-bottom: 1em;
-    padding-left: 1em;
-}
-
-img.sectionImage {
-    padding-right: 1em;
-}
-
-.left {
-    padding-right: 2em;
-}
-.right {
-    padding-left: 2em;
+    align-content: stretch;
+    > .card {
+        background: #ddd;
+        display: flex;
+        flex-direction: column;
+        max-width: 14em;
+        flex-grow: 2;
+        border-radius: 0.5em;
+        margin: 1em;
+        > .cardPhoto { 
+            width: 100%;
+            border-radius: 0.4em 0.4em 0 0;
+        }
+        > .cardText { padding: 1em; }
+    }
 }
 
 // Footer
-.footer {
+footer {
     background: #111;
-}
-
-// Sections
-
-.d-sec {
-    background: #eee;
-}
-
-.l-sec {
-    background: #fff;
+    color: #fff;
+    padding: 2em 10vw;
 }
