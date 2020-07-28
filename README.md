@@ -6,8 +6,14 @@ Mello's homepage is generated using [Jekyll](https://jekyllrb.com).
 ## Dependencies
 [Install Ruby and the Ruby development package](https://www.ruby-lang.org/en/documentation/installation/)
 
+### macOS
+Ruby 2.0 and higher is included in macOS 10.11 (El Capitan) and higher. Otherwise, you can install the `ruby` package via Homebrew.
+
 ### Void Linux
-Install `ruby` and `ruby-devel`
+Install `ruby` and `ruby-devel` via XBPS.
+
+### Windows
+Install the `ruby` package via [Scoop](https://github.com/ScoopInstaller/Main/blob/master/bucket/ruby.json) or [Chocolatey](https://chocolatey.org/packages/ruby).
 
 *Please add instructions for your OS / Distro here.*
 
