@@ -13,7 +13,7 @@ Install `ruby` and `ruby-devel`
 
 ## Setup
 1. Clone this repository with `$ git clone https://gitub.com/mello-app/static-website` and go into it
-2. Install bundler with `$ gem install bundle`
+2. Install bundler with `$ gem install bundler`
 3. Run `$ bundle install`
 4. Serve the webpage with `$ jekyll serve`
 5. Get hacking!
