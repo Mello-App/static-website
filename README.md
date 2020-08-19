@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.com/Mello-App/static-website.svg?branch=master)](https://travis-ci.com/Mello-App/static-website)
-
-# Mello Homepage
+# Mello Homepage ![Jekyll CI](https://github.com/mello-app/static-website/workflows/Jekyll%20site%20CI/badge.svg)[![Netlify Status](https://api.netlify.com/api/v1/badges/7c86ee23-817c-431c-9fdd-578d7176963a/deploy-status)](https://app.netlify.com/sites/silly-williams-269dd2/deploys)
 Mello's homepage is generated using [Jekyll](https://jekyllrb.com).
 
 ## Dependencies
