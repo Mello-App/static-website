@@ -13,7 +13,7 @@ module Jekyll
 			render = %Q[
 				<div class="card">
 					<a href="#{url}">
-						<img class="cardPhoto" src="{{ '#{img}' | relative_url }}" alt="#{person}'s logo">
+						<img class="cardPhoto" src="#{img}" alt="#{person}'s logo">
 						<div class="cardText">
 							<h3>#{person}</h3>
 							<p>#{role}</p>
