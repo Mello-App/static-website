@@ -1,47 +1,7 @@
 <div class="team">
-    <div class="card">
-        <a href="https://daniel.lleb.me">
-            <img class="cardPhoto" src="{{ '/assets/img/team/cyckl.svg' | relative_url }}" alt="Cyckl's logo">
-            <div class="cardText">
-                <h3>cyckl</h3>
-                <p>Design, Front-End Dev</p>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a href="https://doamatto.xyz">
-            <img class="cardPhoto" src="{{ '/assets/img/team/doamatto.svg' | relative_url }}" alt="doamatto's logo">
-            <div class="cardText">
-                <h3>doamatto</h3>
-                <p>Full-Stack, Mobile Dev</p>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a href="https://raineplt29.github.io">
-            <img class="cardPhoto" src="https://networkingnerd.files.wordpress.com/2016/09/dumpsterfire2.jpg" alt="Rainpelt29's logo">
-            <div class="cardText">
-                <h3>Rainpelt29</h3>
-                <p>Art, Writing</p>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a>
-            <img class="cardPhoto" src="{{ '/assets/img/team/sd_madness.jpeg' | relative_url }}" alt="sd_madness's logo">
-            <div class="cardText">
-                <h3>sd_madness</h3>
-                <p>Art</p>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a href="https://ultra03.ga">
-            <img class="cardPhoto" src="{{ '/assets/img/team/ultra.svg' | relative_url }}" alt="Ultra's logo">
-            <div class="cardText">
-                <h3>Ultra</h3>
-                <p>Back-End Dev</p>
-            </div>
-        </a>
-    </div>
+    {% TeamComponent img:"/assets/img/team/cyckl.svg" name:"cyckl" role:"Design, Front-End Dev" url:"https://cyckl.github.io" %}
+    {% TeamComponent img:"/assets/img/team/doamatto.svg" name:"doamatto" role:"Full-Stack, Mobile Dev" url:"https://doamatto.xyz" %}
+    {% TeamComponent img:"/assets/img/toam/rainpelt.svg" name:"Rainpelt29" role:"Art, Writing" url:"https://rainpelt29.github.io" %}
+    {% TeamComponent img:"/assets/img/team/sd_madness.jpeg" name:"sd_madness" role: "Art" url:"" %}
+    {% TeamComponent img:"/assets/img/team/ultra.svg" name:"Ultra" role:"Back-End Dev" url:"https://ultra03.ga" %}
 </div>
