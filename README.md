@@ -2,13 +2,13 @@
 Mello's homepage is generated using [Jekyll](https://jekyllrb.com).
 
 ## Dependencies
-[Install Ruby and the Ruby development package](https://www.ruby-lang.org/en/documentation/installation/)
+[Install Ruby `2.7.2` and the Ruby development package](https://www.ruby-lang.org/en/documentation/installation/)
 
 ### macOS
 Ruby 2.0 and higher is included in macOS 10.11 (El Capitan) and higher. Otherwise, you can install the `ruby` package via Homebrew, but it is more ideal if you install [`rbenv`](https://github.com/rbenv/rbenv#installation) instead.
 
 ### Linux
-**Debian/Pop!_OS/Ubuntu** Install `ruby-full` via APT or `ruby` via Snap
+**Debian/Pop!_OS/Ubuntu** Install `ruby-full` via APT or [`ruby`](https://snapcraft.io/ruby) via Snap
 **Void Linux** Install `ruby` and `ruby-devel` via XBPS.
 
 ### Windows
