@@ -5,10 +5,14 @@ require "jekyll-spark"
 module Jekyll
 	class TeamComponent < ComponentTag
 		def template(context)
-			img = @props["img"]
+			imgA = @props["img"]
 			person = @props["name"]
 			role = @props["role"]
 			url = @props["url"]
+
+			puts Liquid::Template.parse("{{ '#{imgA}' | relative_url }}")
+			img = Liquid::Template.parse("{{ '#{imgA}' | relative_url }}").render
+			puts Liquid::Template.parse("{{ '#{imgA}' | relative_url }}").render
 
 			render = %Q[
 				<div class="card">
