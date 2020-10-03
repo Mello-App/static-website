@@ -2,6 +2,9 @@
   for = "/*"
   [headers.values]
     Expect-CT = "max-age=86400, enforce"
+    Feature-Policy = "accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; camera 'none'; document-domain 'none'; encrypted-media 'none'; execution-while-not-rendered 'none'; execution-while-out-of-viewport 'none'; fullscreen 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; publickey-credentials-get 'none'; sync-xhr 'none'; usb 'none';xr-spatial-tracking 'none'"
+    Permissions-Policy = "accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; camera 'none'; document-domain 'none'; encrypted-media 'none'; execution-while-not-rendered 'none'; execution-while-out-of-viewport 'none'; fullscreen 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; publickey-credentials-get 'none'; sync-xhr 'none'; usb 'none';-spatial-tracking 'none'"
+    Referrer-Policy = "no-referrer"
     Strict-Transport-Security = "max-age=31536000;preload;includeSubDomains"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
