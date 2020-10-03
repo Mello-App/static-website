@@ -1,4 +1,4 @@
-# Mello Homepage ![Jekyll CI](https://github.com/mello-app/static-website/workflows/Jekyll%20site%20CI/badge.svg)[![Netlify Status](https://api.netlify.com/api/v1/badges/7c86ee23-817c-431c-9fdd-578d7176963a/deploy-status)](https://app.netlify.com/sites/silly-williams-269dd2/deploys)
+# Mello Homepage ![Jekyll CI](https://github.com/mello-app/static-website/workflows/Jekyll%20site%20CI/badge.svg)![Netlify Status](https://api.netlify.com/api/v1/badges/a415d1b0-d99d-4139-9885-dcd9c0a772e1/deploy-status)
 Mello's homepage is generated using [Jekyll](https://jekyllrb.com).
 
 ## Dependencies
