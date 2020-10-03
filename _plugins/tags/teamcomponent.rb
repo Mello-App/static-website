@@ -11,7 +11,6 @@ module Jekyll
 			role = @props["role"]
 			url = @props["url"]
 
-			puts absolute_url(imgA)
 			img = absolute_url(imgA)
 
 			render = %Q[
