@@ -4,15 +4,15 @@ require "jekyll-spark"
 
 module Jekyll
 	class TeamComponent < ComponentTag
+		include Jekyll::Filters::URLFilters
 		def template(context)
 			imgA = @props["img"]
 			person = @props["name"]
 			role = @props["role"]
 			url = @props["url"]
 
-			puts Liquid::Template.parse("{{ '#{imgA}' | relative_url }}")
-			img = Liquid::Template.parse("{{ '#{imgA}' | relative_url }}").render
-			puts Liquid::Template.parse("{{ '#{imgA}' | relative_url }}").render
+			puts absolute_url(imgA)
+			img = absolute_url(imgA)
 
 			render = %Q[
 				<div class="card">
