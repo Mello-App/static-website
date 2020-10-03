@@ -3,7 +3,7 @@ require "jekyll-spark"
 # Syntax: {% TeamComponent img:"" name:"" role: "" url: "" %}
 
 module Jekyll
-	class NapoleanComponent < ComponentTag
+	class TeamComponent < ComponentTag
 		def template(context)
 			img = @props["img"]
 			person = @props["name"]
