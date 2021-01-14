@@ -112,6 +112,13 @@ div.team {
             background: #292929;
             color: #fff;
         }
+        transition: 150ms box-shadow ease-in-out;
+        &:hover {
+            @media (prefers-color-scheme: 'dark') {
+                box-shadow: 0 1em 8px #0f0f0f;
+            }
+            box-shadow: 0 1em 8px #aaaaaa;
+        }
         display: flex;
         flex-direction: column;
         max-width: 14em;
