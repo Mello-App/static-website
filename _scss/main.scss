@@ -106,6 +106,7 @@ div.team {
     justify-content: center;
     align-items: flex-start;
     align-content: stretch;
+    margin: 2em auto;
     > .card {
         background: #ddd;
         @media(prefers-color-scheme: 'dark') {
