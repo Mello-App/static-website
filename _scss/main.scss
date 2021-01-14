@@ -1,7 +1,14 @@
 @charset 'utf-8';
 
 html,
-body { margin: 0; }
+body {
+    margin: 0;
+    background: #fff;
+    @media(prefers-color-scheme: 'dark') {
+        background: #1b1b1b;
+        color: #fff;
+    }
+}
 
 // Header
 header {
@@ -41,7 +48,13 @@ div.nav {
     display: flex;
     justify-content: center;
     min-height: 75vh;
-    &.st1 { background: #ddd; }
+    &.st1 {
+        background: #ddd;
+        @media(prefers-color-scheme: 'dark') {
+            background: #292929;
+            color: white;
+        }
+    }
 }
 
 // Content block
@@ -95,6 +108,12 @@ div.team {
     align-content: stretch;
     > .card {
         background: #ddd;
+        @media(prefers-color-scheme: 'dark') {
+            background: #292929;
+            color: #fff;
+        }
+        transition: 150ms box-shadow ease-in-out;
+        &:hover { box-shadow: 0 1em 8px #0f0f0f; }
         display: flex;
         flex-direction: column;
         max-width: 14em;
