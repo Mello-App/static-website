@@ -3,6 +3,11 @@
 html,
 body {
     margin: 0;
+    background: #fff;
+    @media(prefers-color-scheme: 'dark') {
+        background: #1b1b1b;
+        color: #fff;
+    }
 }
 
 // Header
@@ -49,6 +54,10 @@ div.nav {
     min-height: 75vh;
     &.st1 {
         background: #ddd;
+        @media(prefers-color-scheme: 'dark') {
+            background: #292929;
+            color: white;
+        }
     }
 }
 
@@ -113,6 +122,10 @@ div.team {
     align-content: stretch;
     > .card {
         background: #ddd;
+        @media(prefers-color-scheme: 'dark') {
+            background: #292929;
+            color: #fff;
+        }
         display: flex;
         flex-direction: column;
         max-width: 14em;

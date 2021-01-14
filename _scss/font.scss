@@ -11,7 +11,10 @@ html {
     color: #000;
 }
 
-.disabled { color: #444; }
+.disabled {
+    color: #444;
+    @media(prefers-color-scheme: 'dark') { color: #bebebe; }
+}
 
 h1, h2, p, a {
     margin: 0.25em 0;
