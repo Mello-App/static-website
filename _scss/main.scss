@@ -115,7 +115,12 @@ div.team {
             color: #fff;
         }
         transition: 150ms box-shadow ease-in-out;
-        &:hover { box-shadow: 0 1em 8px #0f0f0f; }
+        &:hover {
+            @media (prefers-color-scheme: 'dark') {
+                box-shadow: 0 1em 8px #0f0f0f;
+            }
+            box-shadow: 0 1em 8px #aaaaaa;
+        }
         display: flex;
         flex-direction: column;
         max-width: 14em;
@@ -123,6 +128,7 @@ div.team {
         border-radius: 0.5em;
         margin: 1em;
         a {
+            margin: 0;
             text-decoration: none;
             color: inherit;
             > .cardPhoto {
