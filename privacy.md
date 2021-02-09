@@ -6,7 +6,7 @@ title: "Privacy Policy"
 Your privacy is just as important (if not more) than our privacy. We go to big lengths to ensure that your privacy is protected as much as possible. We're commited to making sure our service is private-by-default and we're a member of the <a href="https://doamatto.xyz/projects/privacy-by-default">Private by Default campaign.</a>
 
 ### What data is collected and why?
-When you download the application, you need to make an account. If you sign up with Apple, Apple gives us the following data:
+When you download the application, you need to make an account. If you sign up with Apple, Apple will allow us access to the following data:
 - your first and last name (we ignore this data); and:
 - your email address (we ignore this data, as well)
 
