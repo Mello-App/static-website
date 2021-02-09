@@ -33,7 +33,7 @@ Mello, its servers, and its members are under the jurisdiction of the United Sta
 - we can't unsalt and unhash passwords.
 
 ### What if there's a data breach?
-In the event of a data breach, we will send out an email address, regardless of if you were affected or not, with password reset notifications, following information pertaining to what things may have been compromised. This will all be done as soon as we find said breach. Once this issue is patched, we may release information on the issue as well as how we fixed it on GitHub.
+In the event of a data breach, we will send out an email notification, regardless of if you were affected or not, with password reset notifications, following information pertaining to what things may have been compromised. This will all be done as soon as we find said breach. Once this issue is patched, we may release information on the issue as well as a write-up on how we fixed it on GitHub.
 
 ### Your rights and choices
 In some countries, states, or provinces, you may have certain rights pertaining to your data. Regardless of where we're from, we want to give you as many choices as possible.
