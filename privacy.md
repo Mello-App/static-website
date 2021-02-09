@@ -38,7 +38,13 @@ In the event of a data breach, we will send out an email notification, regardles
 ### Your rights and choices
 In some countries, states, or provinces, you may have certain rights pertaining to your data. Regardless of where we're from, we want to give you as many choices as possible.
 
-**TODO: See if there are other things that need to go here**
+- **Request a copy of your data** In the event that you want to see such, you can easily request it by going inside the mobile or web app and:
+  - opening the Settings panel,
+  - opening the Account tab,
+  - scrolling to the bottom of the page and selecting "Request a copy of my data"; and:
+  - confirming you want a copy.
+  
+You'll be able to then download a JSON file containing your data.
 
 - **Deleting your data** As sad as we are to see you go, we're here to make sure we completely forget that you were even here. When you delete your data, it goes away right when you confirm it. Inside the mobile app or on the web app, you can delete your data by:
   - open the Settings panel,
