@@ -28,7 +28,7 @@ We do not sell your data with any third-parties. [Some data is shared with third
 
 If you sign in with [Apple](https://www.apple.com/legal/privacy/en-ww/), you are under their privacy policy. Review to know what you're getting yourself into.
 
-The U.S. government could request information from us. We will only provide data if they provide us a legal order such as a subpoena. When they provide us with such order and an email address to find the user in question, we can't give them any information because:
+Mello, its servers, and its members are under the jurisdiction of the United States. This means that the U.S. government has the ability to request user information from us. Due to our commitment to privacy, we would only provide data if they provide us with a valid legal order such as a subpoena. Should they provide us with such order and a valid email address to find the user in question, we will still be unable to give them any information because:
 - we can't unsalt and unhash content IDs, and:
 - we can't unsalt and unhash passwords.
 
