@@ -11,8 +11,8 @@ When you download the application, you need to make an account. If you sign up w
 - your email address (we ignore this data, as well)
 
 If you sign up with an email address, we collect the following data:
-- your email address (used for login and password recovery)
-- a password that you provide (used for login)
+- your email address (used for logging in and password resets)
+- a password that you provide (used for logging in, securely hashed and salted)
 
 When using your account, you can choose to favourite meditations, sleep stories, and other content on Mello. When you favourite one of these, the following data is stored with your account data:
 - the content ID of what you favourited (used to store your favourites for whenever you need them)
