@@ -7,18 +7,19 @@ Your privacy is just as important (if not more) than our privacy. We go to big l
 
 ### What data is collected and why?
 When you download the application, you need to make an account. If you sign up with Apple, Apple will allow us access to the following data:
-- your first and last name (we ignore this data); and:
-- your email address (we ignore this data, as well)
+- your first and last name (we ignore this data),
+- your email address (we use this for data breach notifications); and:
+- a unique token for us for authentication (we use this in place of an email address of password).
 
 If you sign up with an email address, we collect the following data:
-- your email address (used for logging in and password resets)
+- your email address (used for logging in, password resets, and data breach notifications)
 - a password that you provide (used for logging in, securely hashed and salted)
 
 When using your account, you can choose to favourite meditations, sleep stories, and other content on Mello. When you favourite one of these, the following data is stored with your account data:
 - the content ID of what you favourited (used to store your favourites for whenever you need them)
 
 ### What data is shared, sold, or transfered?
-We do not sell your data with any third-parties. [Some data is shared with third-parties.](#who-has-access-to-or-processes-your-data)
+We do not sell your data with any third-parties. [Some data is shared with third-parties](#who-has-access-to-or-processes-your-data) so that we may provide our service.
 
 ### Who has access to or processes your data?
 [Service X](#), our database provider, has access to:
@@ -29,8 +30,14 @@ We do not sell your data with any third-parties. [Some data is shared with third
 If you sign in with Apple, you are under their [privacy policy](https://www.apple.com/legal/privacy/en-ww/). We recommend that you review it to understand their data policies.
 
 Mello, its servers, and its members are under the jurisdiction of the United States. This means that the U.S. government has the ability to request user information from us. Due to our commitment to privacy, we would only provide data if they provide us with a valid legal order such as a subpoena. Should they provide us with such order and a valid email address to find the user in question, we will still be unable to give them any information because:
+- we can't unsalt and unhash email addresses,
 - we can't unsalt and unhash content IDs, and:
 - we can't unsalt and unhash passwords.
+
+### How do we protect your data?
+**TODO: Elabourate on what else we do to protect data.**
+
+Truth be told: there's no be all and end all to protect your data. But, we do our best to use modern-day encryption methods as well as strict HSTS, DNSSEC, and CSP to ensure your experience is the way it was intended. We have signed a DPA with [Service X]() to better protect your data and ensure it doesn't fall into malicious hands.
 
 ### What if there's a data breach?
 In the event of a data breach, we will send out an email notification, regardless of if you were affected or not, with password reset notifications, following information pertaining to what things may have been compromised. This will all be done as soon as we find said breach. Once this issue is patched, we may release information on the issue as well as a write-up on how we fixed it on GitHub.
