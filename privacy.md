@@ -26,7 +26,7 @@ We do not sell your data with any third-parties. [Some data is shared with third
 - salted and hashed passwords
 - salted and hashed content IDs (if you favourite content. You can avoid this by not using the favourite functionality)
 
-If you sign in with [Apple](https://www.apple.com/legal/privacy/en-ww/), you are under their privacy policy. Review to know what you're getting yourself into.
+If you sign in with Apple, you are under their [privacy policy](https://www.apple.com/legal/privacy/en-ww/). We recommend that you review it to understand their data policies.
 
 Mello, its servers, and its members are under the jurisdiction of the United States. This means that the U.S. government has the ability to request user information from us. Due to our commitment to privacy, we would only provide data if they provide us with a valid legal order such as a subpoena. Should they provide us with such order and a valid email address to find the user in question, we will still be unable to give them any information because:
 - we can't unsalt and unhash content IDs, and:
