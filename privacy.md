@@ -11,7 +11,7 @@ When you download the application, you need to make an account. If you sign up w
 - your email address (we use this for data breach notifications); and:
 - a unique token for us for authentication (we use this in place of an email address or password).
 
-If you sign up with an email address, we collect the following data:
+Alternatively, if you sign up with an email address, we collect the following data:
 - your email address (used for logging in, password resets, and data breach notifications),
 - a unique token for us for authentication (we use this in place of an email address or password).
 
