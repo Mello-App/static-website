@@ -18,7 +18,7 @@ If you sign up with an email address, we collect the following data:
 When using your account, you can choose to favourite meditations, sleep stories, and other content on Mello. When you favourite one of these, the following data is stored with your account data:
 - the content ID of what you favourited (used to store your favourites for whenever you need them)
 
-Your settings that you use in the app will automatically sync between devices to give a seamless experience. This is stored with your content ID 
+Your settings that you use in the app will automatically sync between devices to give a seamless experience. This is stored alongside your favourited content IDs.
 
 ### What data is shared, sold, or transfered?
 We do not sell your data with any third-parties. [Some data is shared with third-parties](#who-has-access-to-or-processes-your-data) so that we may provide our service.
