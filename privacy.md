@@ -12,7 +12,7 @@ When you download the application, you need to make an account. If you sign up w
 - a unique token for us for authentication (we use this in place of an email address or password).
 
 Alternatively, if you sign up with an email address, we collect the following data:
-- your email address (used for logging in, password resets, and data breach notifications),
+- your email address (used for logging in and data breach notifications),
 - a unique token for us for authentication (we use this in place of an email address or password).
 
 When using your account, you can choose to favourite meditations, sleep stories, and other content on Mello. When you favourite one of these, the following data is stored with your account data:
