@@ -9,6 +9,7 @@ Ruby 2.0 and higher is included in macOS 10.11 (El Capitan) and higher. Otherwis
 
 ### Linux
 **Debian/Pop!_OS/Ubuntu** Install `ruby-full` via APT or [`ruby`](https://snapcraft.io/ruby) via Snap
+
 **Void Linux** Install `ruby` and `ruby-devel` via XBPS.
 
 ### Windows
