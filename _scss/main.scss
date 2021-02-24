@@ -45,7 +45,10 @@ div.nav {
 }
 
 // Page content
-.pageContent { margin: 1em 1em; }
+.pageContent {
+    margin: 2em 25%;
+    @media (max-width: 800px) { margin: 2em 10%; }
+}
 
 // Section block
 .section {
